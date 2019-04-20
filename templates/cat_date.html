@@ -1,0 +1,69 @@
+{% extends "bases.html" %}
+
+{% block title %}旅游意向{% endblock %}
+
+{% block content %}
+<table class="table table-striped">
+        <h1 class="text-primary">快来看看点击率最高的城市吧！</h1> <br>
+        <thead>
+            <tr>
+                <th>TOP</th>
+                <th>城市</th>
+                <th>点击率</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TOP1</td>
+                <td>{{ date[0][0] }}</td>
+                <td>{{ date[0][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP2</td>
+                <td>{{ date[1][0] }}</td>
+                <td>{{ date[1][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP3</td>
+                <td>{{ date[2][0] }}</td>
+                <td>{{ date[2][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP4</td>
+                <td>{{ date[3][0] }}</td>
+                <td>{{ date[3][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP5</td>
+                <td>{{ date[4][0] }}</td>
+                <td>{{ date[4][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP6</td>
+                <td>{{ date[5][0] }}</td>
+                <td>{{ date[5][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP7</td>
+                <td>{{ date[6][0] }}</td>
+                <td>{{ date[6][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP8</td>
+                <td>{{ date[7][0] }}</td>
+                <td>{{ date[7][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP9</td>
+                <td>{{ date[8][0] }}</td>
+                <td>{{ date[8][1] }}</td>
+            </tr>
+            <tr>
+                <td>TOP10</td>
+                <td>{{ date[9][0] }}</td>
+                <td>{{ date[9][1] }}</td>
+            </tr>
+        </tbody>
+</table>
+      
+{% endblock %}

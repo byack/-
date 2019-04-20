@@ -1,0 +1,180 @@
+{% extends "bases.html" %}
+
+{% block title %}问卷填写{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <form method="POST">
+            <div class="block-center">
+                {{ form.csrf_token() }}
+                {{ form.username.label }}{{ form.username }} <hr> <br>
+                {{ form.region1.label }}
+                <select {{ form.region1 }}>
+                    <option>杭州</option>
+                    <option>西安</option>
+                    <option>北京</option>
+                    <option>青岛</option>
+                    <option>郑州</option>
+                    <option>香港</option>
+                    <option>澳门</option>
+                    <option>黄山</option>
+                    <option>济南</option>
+                    <option>张家界</option>
+                    <option>乌镇</option>
+                    <option>南昌</option>
+                    <option>哈尔滨</option>
+                    <option>千岛湖</option>
+                    <option>三亚</option>
+                    <option>丽江</option>
+                    <option>香格里拉</option>
+                    <option>威海</option>
+                    <option>大理</option>
+                    <option>济宁</option>
+                    <option>五台山</option>
+                    <option>武夷山</option>
+                    <option>普陀山</option>
+                    <option>马鞍山</option>
+                    <option>烟台</option>
+                    <option>桃花岛</option>
+                    <option>普吉岛</option>
+                    <option>都江堰</option>
+                    <option>井冈山</option>
+                    <option>聊城</option>
+                </select> <hr> <br>
+                {{ form.region2.label }}
+                <select {{ form.region2 }}>
+                    <option>杭州</option>
+                    <option>西安</option>
+                    <option>北京</option>
+                    <option>青岛</option>
+                    <option>郑州</option>
+                    <option>香港</option>
+                    <option>澳门</option>
+                    <option>黄山</option>
+                    <option>济南</option>
+                    <option>张家界</option>
+                    <option>乌镇</option>
+                    <option>南昌</option>
+                    <option>哈尔滨</option>
+                    <option>千岛湖</option>
+                    <option>三亚</option>
+                    <option>丽江</option>
+                    <option>香格里拉</option>
+                    <option>威海</option>
+                    <option>大理</option>
+                    <option>济宁</option>
+                    <option>五台山</option>
+                    <option>武夷山</option>
+                    <option>普陀山</option>
+                    <option>马鞍山</option>
+                    <option>烟台</option>
+                    <option>桃花岛</option>
+                    <option>普吉岛</option>
+                    <option>都江堰</option>
+                    <option>井冈山</option>
+                    <option>聊城</option>
+                </select> <hr> <br>
+                {{ form.region3.label }}
+                <select {{ form.region3 }}>
+                    <option>杭州</option>
+                    <option>西安</option>
+                    <option>北京</option>
+                    <option>青岛</option>
+                    <option>郑州</option>
+                    <option>香港</option>
+                    <option>澳门</option>
+                    <option>黄山</option>
+                    <option>济南</option>
+                    <option>张家界</option>
+                    <option>乌镇</option>
+                    <option>南昌</option>
+                    <option>哈尔滨</option>
+                    <option>千岛湖</option>
+                    <option>三亚</option>
+                    <option>丽江</option>
+                    <option>香格里拉</option>
+                    <option>威海</option>
+                    <option>大理</option>
+                    <option>济宁</option>
+                    <option>五台山</option>
+                    <option>武夷山</option>
+                    <option>普陀山</option>
+                    <option>马鞍山</option>
+                    <option>烟台</option>
+                    <option>桃花岛</option>
+                    <option>普吉岛</option>
+                    <option>都江堰</option>
+                    <option>井冈山</option>
+                    <option>聊城</option>
+                </select> <hr> <br>
+                {{ form.region4.label }}
+                <select {{ form.region4 }}>
+                    <option>杭州</option>
+                    <option>西安</option>
+                    <option>北京</option>
+                    <option>青岛</option>
+                    <option>郑州</option>
+                    <option>香港</option>
+                    <option>澳门</option>
+                    <option>黄山</option>
+                    <option>济南</option>
+                    <option>张家界</option>
+                    <option>乌镇</option>
+                    <option>南昌</option>
+                    <option>哈尔滨</option>
+                    <option>千岛湖</option>
+                    <option>三亚</option>
+                    <option>丽江</option>
+                    <option>香格里拉</option>
+                    <option>威海</option>
+                    <option>大理</option>
+                    <option>济宁</option>
+                    <option>五台山</option>
+                    <option>武夷山</option>
+                    <option>普陀山</option>
+                    <option>马鞍山</option>
+                    <option>烟台</option>
+                    <option>桃花岛</option>
+                    <option>普吉岛</option>
+                    <option>都江堰</option>
+                    <option>井冈山</option>
+                    <option>聊城</option>
+                </select> <hr> <br>
+                {{ form.region5.label }}
+                <select {{ form.region5 }}>
+                    <option>杭州</option>
+                    <option>西安</option>
+                    <option>北京</option>
+                    <option>青岛</option>
+                    <option>郑州</option>
+                    <option>香港</option>
+                    <option>澳门</option>
+                    <option>黄山</option>
+                    <option>济南</option>
+                    <option>张家界</option>
+                    <option>乌镇</option>
+                    <option>南昌</option>
+                    <option>哈尔滨</option>
+                    <option>千岛湖</option>
+                    <option>三亚</option>
+                    <option>丽江</option>
+                    <option>香格里拉</option>
+                    <option>威海</option>
+                    <option>大理</option>
+                    <option>济宁</option>
+                    <option>五台山</option>
+                    <option>武夷山</option>
+                    <option>普陀山</option>
+                    <option>马鞍山</option>
+                    <option>烟台</option>
+                    <option>桃花岛</option>
+                    <option>普吉岛</option>
+                    <option>都江堰</option>
+                    <option>井冈山</option>
+                    <option>聊城</option>
+                </select> <hr> <br>
+                {{ form.submit }} <br>
+            </div>
+    </form>
+</div>
+{% endblock %}

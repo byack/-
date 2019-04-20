@@ -1,0 +1,59 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}旅游意向{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+            data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">旅游意向网</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="/WriteDate">填写问卷</a></li>
+              <li><a href="CatDate">查看数据<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">热门城市 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://v.qq.com/x/page/u07408compu.html">北京</a></li>
+                  <li><a href="https://v.qq.com/x/page/f0541yz3kct.html">贵州</a></li>
+                  <li><a href="https://v.qq.com/x/page/r0836gjweog.html">苏州</a></li>
+                  <li><a href="https://v.qq.com/x/page/z0745dz4nva.html">杭州</a></li>
+                  <li><a href="https://v.qq.com/x/page/k06906cnin2.html">桂林</a></li>
+                  <li><a href="https://v.youku.com/v_show/id_XMzYyMjQxNDc2OA==.html">丽江</a></li>
+                  <li><a href="https://v.qq.com/x/page/s0347bga7bk.html">大理</a></li>
+                  <li><a href="https://v.qq.com/x/page/w0812rdoo65.html">新疆</a></li>
+                  <li><a href="https://v.qq.com/x/page/p0712vr4cwx.html">西藏</a></li>
+                  <li><a href="https://v.qq.com/x/page/m0852mvqpew.html">武汉</a></li>
+                  <li><a href="https://v.qq.com/x/page/e0547r47gnz.html">海南</a></li>
+                  <li><a href="https://v.qq.com/x/page/c0805cndl4u.html">江西</a></li>
+                  <li><a href="https://v.qq.com/x/page/v0710czmi5x.html">福建</a></li>
+                  <li><a href="https://v.qq.com/x/page/i08304qhjeq.html">四川</a></li>
+                  <li><a>________^.^</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">作者<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a>byack</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a>email:18788748257@163.com</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://github.com/byack">我的Github</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

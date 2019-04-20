@@ -1,0 +1,29 @@
+一：前面简单的阶段
+	创建一个虚拟环境
+		python3 -m venv vm
+	启动虚拟环境
+		source vm/bin/activate
+	安装flask
+		pip3 install flask
+        创建一个旅游意向调查Web的文件夹，并进入到这个文件夹下
+		mkdir my_flask_app
+		cd my_flask_app
+	在这个路径下创建一个文件夹templates用于存放html文件
+		mkdir templates
+
+二：开始些代码
+	建立主要的web程序
+		touch main_web.py
+	安装flask-bootstrap用于渲染网页
+		pip3 install flask-bootstrap
+	安装flask-WTF来制作表单
+		pip3 install flask-WTF
+
+
+
+旅游搜索TOP榜单
+http://top.baidu.com/buzz?b=302
+
+这是我写这段代码的一些记录
+需要的一些扩展都有写，我是在虚拟环境中完成的这个作业。
+还有诸多问题，各位有需要的自行取，代码写得不是很漂亮，各位大佬见谅，欢迎交流。
