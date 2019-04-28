@@ -93,5 +93,7 @@ if __name__ == "__main__":
     for i in dates:
         for j in range(5):
             city_num[i[j]] += 1
-
+    curs.close()
+    conn.close()
+    
     app.run(debug=True)
